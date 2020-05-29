@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "Manor Regression Suite" >
+
+
+
+	<listeners>
+	
+		<listener class-name="com.qa.manor.listeners.TestAllureListener"/>
+		
+	</listeners>
+
+	<test name= "Manor Functional Regression Test" >
+		
+		<classes>
+			<class name= "com.qa.manor.tests.WelcomePageTest"/>
+			<!-- 
+			<class name= "com.qa.manor.tests.LoginPageTest"/>
+			 -->
+		</classes>
+	</test>
+</suite>

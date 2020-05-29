@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Manor Regression Suite]">
+  <listeners>
+    <listener class-name="com.qa.manor.listeners.TestAllureListener"/>
+  </listeners>
+  <test name="Manor Functional Regression Test(failed)">
+    <classes>
+      <class name="com.qa.manor.tests.WelcomePageTest">
+        <methods>
+          <include name="verifySeachBar_test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.manor.tests.WelcomePageTest -->
+    </classes>
+  </test> <!-- Manor Functional Regression Test(failed) -->
+</suite> <!-- Failed suite [Manor Regression Suite] -->
